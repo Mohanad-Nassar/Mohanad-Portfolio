@@ -1,225 +1,315 @@
 /* ================= WRITE YOUR CSS HERE. Check the ⌄ for help with formatting and validating your code. You must write some CSS to complete this challenge. =================== */
- html, body {
-     margin: 0;
-     line-height: 1.5;
-     background: linear-gradient(#90e0ef, #52b788 );
+
+html,
+body {
+    margin: 0;
+    line-height: 1.5;
+    background: linear-gradient(#90e0ef, #52b788);
 }
+
+
 /* Site Header */
- .c-site-header {
-     height: 75px;
-     background-color: #333;
-     color: #fff;
-     padding: 16px;
-     text-align: center;
-     box-shadow: 0px 5px 0px #ccc;
+
+.c-site-header {
+    height: 85px;
+    background-color: #333;
+    color: #fff;
+    padding: 16px;
+    text-align: center;
+    box-shadow: 0px 5px 0px #ccc;
 }
- #title-name {
-     margin: 0 0 5px 0 ;
+
+#title-name {
+    margin: 0 0 8px 0;
 }
- #title-name:hover{
-     margin: 5px auto;
-     box-shadow: 0 0 60px lightblue;
-     width:fit-content;
-     color: #fff;
-     padding: 0 5px;
-     border: 0.5px solid lightblue;
-     border-radius: 12px;
-     transition-duration: 0.3s;
-     -moz-transition-duration: 0.3s;
-     -webkit-transition-duration: 0.3s;
+
+#title-name:hover {
+    margin: 5px auto;
+    box-shadow: 0 0 60px lightblue;
+    width: fit-content;
+    color: #fff;
+    padding: 0 5px;
+    border: 0.5px solid lightblue;
+    border-radius: 12px;
+    transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
 }
- #subheading{
-     justify-content:space-between;
-     list-style: none;
-     margin: 0;
-     padding: 0;
+
+#subheading {
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
- #subheading li{
-     display: inline-block;
-     margin-right: 10px;
-     margin-left: 20px;
-     border: 0.5px solid lightblue;
-     padding: 1px 5px;
-     border-radius: 10px 
+
+#subheading li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 20px;
+    mrgin-top: 0;
+    margin: 0 10px 10px 20px;
+    border: 0.5px solid lightblue;
+    padding: 1px 5px;
+    border-radius: 10px
 }
- #subheading li:hover{
-     box-shadow: 0 0 100px #ccc;
-     width:fit-content;
-     color: #fff;
-     padding: 1px 5px;
-     border: 0.5px solid #ccc;
-     border-radius: 3px;
-     transition-duration: 0.3s;
-     -moz-transition-duration: 0.3s;
-     -webkit-transition-duration: 0.3s;
+
+#subheading li:hover {
+    box-shadow: 0 0 100px #ccc;
+    width: fit-content;
+    color: #fff;
+    padding: 1px 5px;
+    border: 0.5px solid #ccc;
+    border-radius: 3px;
+    transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
 }
- .c-site-header a {
-     color: #fff;
-     text-decoration: none;
+
+a {
+    color: #fff;
+    text-decoration: none;
 }
+
+
 /* Main Content */
- main {
-     max-width: 800px;
-     margin: 0 auto;
-     padding: 32px;
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 32px;
 }
- section {
-     margin-bottom: 32px;
-     background-color: #333;
-     color: #fff;
-     padding: 16px;
-     border-radius: 30px;
-     border: 3px solid #ccc;
+
+section {
+    margin-bottom: 32px;
+    background-color: #333;
+    color: #fff;
+    padding: 16px;
+    border-radius: 30px;
+    border: 3px solid #ccc;
     /* normal border */
-     box-shadow: 5px 5px 50px #ccc;
+    box-shadow: 5px 5px 50px #ccc;
     /* 3D border effect */
 }
- section:hover{
-     box-shadow: 0 0 70px #f2d0a9;
-     padding: 25px 16px;
-     transition-duration: 0.3s;
-     -moz-transition-duration: 0.3s;
-     -webkit-transition-duration: 0.3s;
+
+section:hover {
+    box-shadow: 0 0 70px #f2d0a9;
+    padding: 25px 16px;
+    transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
 }
- section h2 {
-     margin-top: 0px;
-     border-bottom: 1px solid whitesmoke;
+
+section h2 {
+    margin-top: 0px;
+    border-bottom: 1px solid whitesmoke;
 }
- section ul {
-     list-style: disc;
-     margin-left: 16px;
+
+section nav {
+    list-style: disc;
+    margin-left: 16px;
 }
- #MyPhoto{
-     margin: 25px 10px 0 60px;
-     text-align: end;
-     display: flex;
-     text-align: end;
-     width: 200px;
-     height: 200px;
-     border-radius: 30px;
-     border: 1px solid silver ;
-     box-shadow: 1px 1px 5px #ccc;
+
+#MyPhoto {
+    margin: 25px 10px 0 60px;
+    text-align: end;
+    display: flex;
+    text-align: end;
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+    border: 1px solid silver;
+    box-shadow: 1px 1px 5px #ccc;
 }
- #MyPhoto:hover{
-     box-shadow: 0 0 60px lightblue;
+
+#MyPhoto:hover {
+    box-shadow: 0 0 20px lightblue;
 }
- #about-me{
-     display: flex;
-     justify-content: space-around;
+
+#about-me {
+    display: flex;
+    justify-content: space-around;
 }
- #about-me-para{
-     text-align: justify;
-     padding: 0 5px;
+
+#about-me-para {
+    text-align: justify;
+    padding: 0 5px;
 }
- .section1p1{
-     margin-left: 0px;
-     width: 500px;
+
+.section1p1 {
+    margin-left: 0px;
+    width: 500px;
 }
+
+
 /* Site Footer */
- .c-site-footer {
-     background-color: #333;
-     color: #fff;
-     padding: 1rem;
-     text-align: center;
+
+.c-site-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
 }
- main li:hover {
+
+main li:hover {
     /* box-shadow: 0 0 20px #ccc;
-     */
-     width:fit-content;
-     font-style: italic;
-     font-weight: bold;
-     font-size: 17px;
-     padding: 0.1px 2px;
-     border-radius: 10px;
-     transition-duration: 0.3s;
-     -moz-transition-duration: 0.3s;
-     -webkit-transition-duration: 0.3s;
+    */
+    width: fit-content;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 0.1px 2px;
+    border-radius: 10px;
+    transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
 }
+
+
 /* don't edit this */
- .jest-lite-report__status--pass {
-     background: var(--color-pass);
+
+.jest-lite-report__status--pass {
+    background: var(--color-pass);
 }
- .jest-lite-report__errors {
-     display:none 
+
+.jest-lite-report__errors {
+    display: none
 }
+
+
 /* skills section */
+
+.skills-list,
+.hobbiesList {
+    display: flex;
+    justify-content: space-between;
+}
+
+#skillsp2,
+#hobbiesp2 {
+    margin-right: auto;
+    margin-left: 100px;
+}
+
+
 /* Courses Section */
- .SubBullet{
-     width: fit-content;
-     margin-left:0px;
-     padding: 0.1px 20px 10px 20px;
-     text-decoration: underline;
-     text-underline-position: under;
+
+.SubBullet {
+    width: fit-content;
+    margin-left: 0px;
+    padding: 0.1px 20px 10px 20px;
+    text-decoration: underline;
+    text-underline-position: under;
     /* Add space between the text and the underline */
-     text-underline-offset: 0.5px;
-     font-style: italic;
+    text-underline-offset: 0.5px;
+    font-style: italic;
 }
- .SubBullet:hover{
-     width:fit-content;
-     font-style: italic;
-     font-weight: bold;
-     font-size: 17px;
-     padding: 0.1px 2px;
-     border-radius: 10px;
-     transition-duration: 0.3s;
-     -moz-transition-duration: 0.3s;
-     -webkit-transition-duration: 0.3s;
+
+
+/* .SubBullet:hover{
+    width:fit-content;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 0.1px 2px;
+    border-radius: 10px;
+    transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
 }
- #video{
-     display: block;
-     margin: 0 auto;
-     border-radius: 10px;
-     max-width: 100%;
+*/
+
+
+/* Hobbies Section */
+
+#video {
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    max-width: 100%;
 }
- #pythonPara{
-     margin: 15px 10px;
+
+#pythonPara {
+    margin: 15px 10px;
 }
+
+
 /* Contact section */
- #contact form{
-     display: flex;
+
+#contactsplit {
+    display: flex;
+    max-width: 100%;
 }
- #EnterName, #EnterEmail{
-     margin: 0px 10px 10px 0px;
-     text-align: start;
-     width: 152px;
-     background: #C5C5C5;
-     border-radius: 5px;
-     padding: 10px 20px;
+
+#contact form {
+    display: flex;
+}
+
+#EnterName,
+#EnterEmail {
+    margin: 0px 10px 10px 0px;
+    text-align: start;
+    width: 152px;
+    background: #C5C5C5;
+    border-radius: 5px;
+    padding: 10px 20px;
     /* text-shadow: 0 0 0.1px #5F5F5F;
-     */
+    */
 }
- #EnterName{
-     width: 120px 
+
+#EnterName {
+    width: 120px
 }
- #message{
-     margin: 0px 0px 10px 0px;
-     text-align: start;
-     width: 325px;
-     min-height: 70px;
+
+#message {
+    margin: 0px 0px 10px 0px;
+    text-align: start;
+    width: 325px;
+    min-height: 70px;
     /* max-width: 100%;
-     */
-     background: #C5C5C5;
-     border-radius: 5px;
-     padding: 10px 20px;
+    */
+    background: #C5C5C5;
+    border-radius: 5px;
+    padding: 10px 20px;
 }
- #EnterSubject{
-     margin: 0px 0px 10px 0px;
-     text-align: start;
-     width: 325px;
+
+#EnterSubject {
+    margin: 0px 0px 10px 0px;
+    text-align: start;
+    width: 325px;
     /* max-width: 100%;
-     */
-     background: #C5C5C5;
-     border-radius: 5px;
-     padding: 10px 20px;
+    */
+    background: #C5C5C5;
+    border-radius: 5px;
+    padding: 10px 20px;
 }
- #Sendbt{
-     margin-left: 10px;
-     background: #333;
-     color: white;
-     padding: 10px 20px 10px 10px;
-     border: 1px solid #52b788 ;
-     border-radius: 15px;
+
+#Sendbt {
+    margin-left: 10px;
+    background: #333;
+    color: white;
+    padding: 10px 20px 10px 10px;
+    border: 1px solid #52b788;
+    border-radius: 15px;
 }
- #Sendbt:hover{
-     padding: 11px 21px 11px 11px;
+
+#Sendbt:hover {
+    padding: 11px 21px 11px 11px;
+}
+
+h3 {
+    width: fit-content;
+    margin-left: 20px;
+    border-bottom: 1px solid white;
+    box-shadow: 0 0 5px white;
+    padding: 2px 6px;
+}
+
+#contactsplit nav nav li {
+    margin-bottom: 20px;
+    margin-left: 0px;
+}
+
+#contactp2 {
+    margin-left: 0px;
 }
